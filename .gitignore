@@ -1,0 +1,67 @@
+# General OS files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.temp
+temp_ip.txt
+ip.txt
+
+# Python / Django (Backend)
+backend/.env
+backend/db.sqlite3
+backend/media/
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/static/
+backend/staticfiles/
+.venv/
+venv/
+env/
+backend/post_output*.txt
+backend/server_output*.txt
+backend/test_output*.txt
+backend/user_list.txt
+backend/otp_list.txt
+backend/traceback.txt
+backend/profile_output.txt
+backend/database_dump.sql
+
+# Node / React (Web)
+web/node_modules/
+web/dist/
+web/build/
+web/.env
+web/.env.local
+web/.env.development.local
+web/.env.test.local
+web/.env.production.local
+web/npm-debug.log*
+web/yarn-debug.log*
+web/yarn-error.log*
+
+# Android (Frontend App)
+frontend/app/build/
+frontend/app/.gradle/
+frontend/app/.idea/
+frontend/app/local.properties
+frontend/app/captures/
+frontend/app/*.apk
+frontend/app/*.aar
+frontend/app/*.jks
+frontend/app/*.keystore
+frontend/app/output.json
+frontend/app/google-services.json
+frontend/app/src/main/res/drawable/app_logo.png.tmp
+
+# IDE / Editor Specific
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+.project
+.classpath
+.settings/
+.factorypath
